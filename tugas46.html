@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tugas 46 Javascript</title>
+</head>
+
+<body>
+
+  <p>Click Untuk Merubah Warna. </p>
+
+  <button type="button" name="button" onclick="myFunction()">Tanya</button>
+
+  <script type="text/javascript">
+    function myFunction() {
+      var tanya = prompt("Ketikan Warna yang kamu inginkan (English)")
+      if (tanya != null) {
+        document.body.style.backgroundColor = tanya;
+      } else {
+        alert("Perubahan Gagal!")
+      }
+    }
+  </script>
+</body>
+
+</html>
